@@ -70,9 +70,11 @@ function populateHero(hero, business) {
     phoneBtn.href = `tel:${business.phone.replace(/[^0-9]/g, '')}`;
     phoneBtn.querySelector('span').textContent = business.phone;
 
-    // Background image
+    // Background image (responsive)
     if (hero.backgroundImage) {
-        document.getElementById('hero').style.backgroundImage = `url(${hero.backgroundImage})`;
+        const isMobile = window.innerWidth < 768;
+        const imageSrc = isMobile && hero.backgroundImageMobile ? hero.backgroundImageMobile : hero.backgroundImage;
+        document.getElementById('hero').style.backgroundImage = `url(${imageSrc})`;
     }
 }
 
@@ -107,12 +109,19 @@ function populateGallery(gallery) {
     const marquee = document.getElementById('gallery-marquee');
     marquee.innerHTML = '';
 
+    // Get screen size for responsive images
+    const isMobile = window.innerWidth < 768;
+
     // Create items and duplicate for seamless loop
     const items = gallery.images.map((image, index) => {
         const item = document.createElement('div');
         item.className = 'marquee-item';
+
+        // Use mobile version if available and on mobile, otherwise desktop
+        const imageSrc = isMobile && image.srcMobile ? image.srcMobile : image.src;
+
         item.innerHTML = `
-            <img src="${image.src}" alt="${image.alt}" onerror="this.style.display='none'; this.parentElement.innerHTML='<span style=\\"display:flex;align-items:center;justify-content:center;height:100%;width:100%;background:#111827;\\">Image ${index + 1}</span>';">
+            <img src="${imageSrc}" alt="${image.alt}" onerror="this.style.display='none'; this.parentElement.innerHTML='<span style=\\"display:flex;align-items:center;justify-content:center;height:100%;width:100%;background:#111827;\\">Image ${index + 1}</span>';">
         `;
         return item;
     });
