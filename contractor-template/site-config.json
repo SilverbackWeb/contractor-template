@@ -1,0 +1,166 @@
+{
+  "business": {
+    "name": "Professional Contractors",
+    "tagline": "Quality Work, Professional Service",
+    "phone": "(555) 123-4567",
+    "email": "info@contractors.com",
+    "address": "123 Main Street",
+    "city": "Your City",
+    "state": "ST",
+    "zip": "12345"
+  },
+
+  "theme": {
+    "primaryColor": "#00ff00",
+    "secondaryColor": "#00cc00",
+    "accentColor": "#00aa00"
+  },
+
+  "logo": {
+    "type": "contractor",
+    "alt": "Company Logo"
+  },
+
+  "logoOptions": {
+    "contractor": "assets/Contractor-logo.svg",
+    "handyman": "assets/handyman-logo.svg",
+    "house": "assets/house-logo.svg",
+    "house-lux": "assets/house-lux-logo.svg",
+    "landscape": "assets/landscape-logo.svg",
+    "painting": "assets/Painting-Logo.svg",
+    "pro": "assets/pro-logo.svg"
+  },
+
+  "hero": {
+    "label": "Professional Services",
+    "headline": "Expert Contractors You Can Trust",
+    "subheadline": "We deliver quality craftsmanship and professional service for all your project needs. Licensed, insured, and committed to excellence.",
+    "ctaText": "Get a Free Quote",
+    "backgroundImage": "https://images.unsplash.com/photo-1552321554-5fefe8c9ef14?w=1920&h=1080&fit=crop&q=80"
+  },
+
+  "services": [
+    {
+      "title": "Service One",
+      "description": "Professional service with expert craftsmanship and attention to detail.",
+      "icon": "hammer"
+    },
+    {
+      "title": "Service Two",
+      "description": "Complete solutions tailored to your specific project requirements.",
+      "icon": "wrench"
+    },
+    {
+      "title": "Service Three",
+      "description": "Quality work that meets industry standards and exceeds expectations.",
+      "icon": "drill"
+    },
+    {
+      "title": "Service Four",
+      "description": "Professional team ready to handle projects of any size.",
+      "icon": "cog"
+    }
+  ],
+
+  "gallery": {
+    "headline": "Recent Work",
+    "images": [
+      { "src": "https://images.unsplash.com/photo-1556909114-f6e7ad7d3136?w=800&h=600&fit=crop&q=80", "alt": "Project 1" },
+      { "src": "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=800&h=600&fit=crop&q=80", "alt": "Project 2" },
+      { "src": "https://images.unsplash.com/photo-1517694712202-14dd9538aa97?w=800&h=600&fit=crop&q=80", "alt": "Project 3" },
+      { "src": "https://images.unsplash.com/photo-1552321554-5fefe8c9ef14?w=800&h=600&fit=crop&q=80", "alt": "Project 4" },
+      { "src": "https://images.unsplash.com/photo-1561070791-2526d30994b5?w=800&h=600&fit=crop&q=80", "alt": "Project 5" },
+      { "src": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=800&h=600&fit=crop&q=80", "alt": "Project 6" }
+    ]
+  },
+
+  "reviews": [
+    {
+      "quote": "Excellent work and professional service. They completed our project on time and within budget. Highly recommended!",
+      "name": "John S.",
+      "rating": 5
+    },
+    {
+      "quote": "Amazing attention to detail. The team was courteous, efficient, and left the workspace clean. Best contractors we've hired!",
+      "name": "Sarah M.",
+      "rating": 5
+    },
+    {
+      "quote": "Professional, reliable, and talented. We trust them with all our projects. Couldn't ask for better service.",
+      "name": "Mike T.",
+      "rating": 5
+    },
+    {
+      "quote": "Transformed our space with outstanding work. Fair pricing and excellent communication throughout the project.",
+      "name": "Lisa R.",
+      "rating": 5
+    },
+    {
+      "quote": "Top-notch quality and professional crew. They handled everything from start to finish with expertise and care.",
+      "name": "Robert K.",
+      "rating": 5
+    }
+  ],
+
+  "process": [
+    {
+      "title": "Site evaluation & planning",
+      "description": "We thoroughly assess your space and develop a detailed plan tailored to your needs and budget."
+    },
+    {
+      "title": "Proper preparation",
+      "description": "Our team prepares everything to exact specifications, ensuring a solid foundation for success."
+    },
+    {
+      "title": "Expert execution",
+      "description": "We execute the work using professional techniques and high-quality materials for optimal results."
+    },
+    {
+      "title": "Finishing & cleanup",
+      "description": "Professional finishing touches and complete site cleanup for a perfect final product."
+    },
+    {
+      "title": "Quality assurance",
+      "description": "Final inspection ensures everything meets our high standards and your expectations."
+    }
+  ],
+
+  "serviceArea": {
+    "mapImage": "assets/service-area-map.svg",
+    "headline": "We Service the Greater St. Louis and St. Charles Area",
+    "highlightText": "Greater St. Louis and St. Charles Area",
+    "description": "We proudly serve the greater region with professional contractor services. Whether you're in our main service area or surrounding communities, our experienced team is ready to help you with your project. We have deep knowledge of local conditions and quick response times throughout the region.",
+    "benefits": [
+      {
+        "title": "Local Expertise",
+        "description": "Deep knowledge of local conditions and project requirements in our service area."
+      },
+      {
+        "title": "Fast Response Times",
+        "description": "Quick consultations and flexible project timelines throughout our service region."
+      },
+      {
+        "title": "Trusted & Experienced",
+        "description": "Years of experience serving families and businesses in your community."
+      }
+    ]
+  },
+
+  "contact": {
+    "headline": "Get Your Free Quote",
+    "subheadline": "Tell us about your project. We'll review your details and get back to you quickly with a no-obligation estimate.",
+    "processFooterText": "This process ensures quality, longevity, and a perfect final result — not rushed work that leads to problems later.",
+    "processCtaText": "Schedule Your Project"
+  },
+
+  "footer": {
+    "copyright": "Professional Contractors",
+    "year": "2025"
+  },
+
+  "seo": {
+    "title": "Professional Contractors | Expert Services",
+    "description": "Professional contractor services with quality workmanship and excellent customer service. Free estimates available.",
+    "keywords": "contractors, professional services, quality work, free estimates"
+  }
+}
